@@ -1,5 +1,5 @@
-title = "My cool new Blog"
-baseURL = "https://example.com/"
+title = "The Open Mind"
+baseURL = "https://VILPAUTOEE.github.io"
 
 # Option 1 (recommended): adding the theme as a Hugo module
 # theme = "github.com/Lednerb/bilberry-hugo-theme/v3"
@@ -28,12 +28,12 @@ disqusShortname = ""
   js_modules = []
 
   # Description and meta data for the search engines
-  author = "Lednerb"
-  description = "Bilberry Premium Theme for Hugo."
+  author = "Pauli"
+  description = "A place for in-depth articles and analysis on a variety of topics, from technology and programming to current events and cultural analysis. Our mission is to encourage critical thinking and open-mindedness through the sharing of knowledge and diverse perspectives."
   keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
 
   # How many articles should be displayed at once?
-  paginate = 7
+  paginate = 10
 
   # Enable / Disable MathJax
   enable_mathjax    = false
@@ -80,10 +80,10 @@ disqusShortname = ""
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "Hello World! This is the most epic subtitle ever."
+    subtitle = "Exploring the World of Ideas."
 
     # if you want to use libravatar or gravatar for the header image
-    avatarEmail = "code@lednerb.de"
+    avatarEmail = "ruuska.pauli@gmail.com"
 
     # set an path to the image file you want to use | overwrites avatar by email
     customImage = ""
@@ -99,17 +99,13 @@ disqusShortname = ""
     stickyNav = false
 
     # show a language chooser in the header
-    showHeaderLanguageChooser = true
+    showHeaderLanguageChooser = false
 
   # Content configuration
     # Enable an optional pinned page to display at the top of the index
     # pinnedPost = "/article/installing-bilberry-theme/"
     # Set to true to pin only to the first page, false to all pages
     # pinOnlyToFirstPage = true
-
-    # enable highlight.js for syntax highlighting or (if set to false) use
-    # the hugo built-in chroma highlighter
-    enableHighlightJs = true
 
     # enable automatic localization of the article's PublishedDate with momentjs
     enableMomentJs = true
@@ -137,32 +133,32 @@ disqusShortname = ""
     amountCategoriesInFooter = 7
 
     # show a language chooser in the footer
-    showFooterLanguageChooser = true
+    showFooterLanguageChooser = false
 
     # social media profile urls for the footer links
     showSocialMedia = true
+
+    # show an archive link in the footer
+    showArchive = false
+
+    # archive grouping: "2006" by year, "2006-01" by month
+    archiveDateGrouping = "2006-01"
 
     # define your links with FontAwesome 5 (only free icons are supported)
     # all icons https://fontawesome.com/icons?d=gallery&m=free
     # brand icons https://fontawesome.com/icons?d=gallery&s=brands&m=free
     socialMediaLinks = [
-      { link = "https://twitter.com/TheRealLednerb", icon = "fab fa-twitter", rel = "me" },
-      { link = "https://github.com/Lednerb", icon = "fab fa-github" },
+      { link = "https://instagram.com/07_pauli", icon = "fab fa-instagram", rel = "me" },
+      { link = "https://github.com/VILPAUTOEE", icon = "fab fa-github" },
     ]
 
-    # show an archive link in the footer
-    showArchive = true
-
-    # archive grouping: "2006" by year, "2006-01" by month
-    archiveDateGrouping = "2006-01"
-
     # credits line configuration
-    copyrightBy = "by Lednerb"
+    copyrightBy = "by Pauli"
     copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
-    copyrightYearOverride = "2017"
-    copyrightUrl = "https://github.com/Lednerb"
-    creditsText = "Bilberry Hugo Theme"
-    creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
+    copyrightYearOverride = "2022"
+    copyrightUrl = "https://github.com/VILPAUTOEE"
+    creditsText = "Powered by Hugo Framework"
+    creditsUrl = "https://gohugo.io/"
 
 
 # customize your available languages for your multi-lingual site
@@ -170,10 +166,6 @@ disqusShortname = ""
 [Languages]
   [Languages.en]
     weight = 1
-  [Languages.de]
-    weight = 2
-    title = "Mein cooler neuer Blog"
-    subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
