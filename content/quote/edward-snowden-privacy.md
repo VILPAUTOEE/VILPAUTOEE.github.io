@@ -1,6 +1,6 @@
 ---
 title: "Edward Snowden About Privacy"
-date: 2021-11-01T13:01:14+01:00
+date: 2022-12-26T03:46:00+02:00
 
 author: "Edward Snowden"
 categories: ['Privacy', 'Society']
